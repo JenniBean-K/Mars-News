@@ -48,5 +48,48 @@ This project involves web scraping and data analysis to extract and analyze Mars
     * Numbr of Martian days in dataset
     * Coldest and warmest months
 
-   ![Pressure Bar Chart](Images/Pressure_Bar_Chart.png)
+    ![Temperature Bar Chart](Images/Temperature_Bar_Chart.png)
+
+
+
+* Month with lowest & highest atmospheric pressure
+
+    ![Pressure Bar Chart](Images/Pressure_Bar_Chart.png)
+
+* Estimating the length of a Martian year.
+    * Plot minimum daily temperature to observe cyclic patterns.
+    * Visually estimate how many Earth days equal one Martian year (~687 Earth days).
+* Export the DataFrame to a CSV file for further analysis.
+
+### Instructions
+
+### Part 1: Scrape Mars News
+1. Open part_1_mars_news.ipynb in Jupyter Nptebook.
+2. Run the script to:
+    * Visit the Mars news website.
+    * Extract titles and preview text.
+    * Store data in a list of dictionaries.
+    * Save as a Json file.
+    
+### Part 2; Scrape and Analyze Mars Weather Data
+1. Open part_2_mars_news.ipynb in Jupyter Notebook.
+2. Run the script:
+    * Scrape the Mars temperature table.
+    * Convert the data into a Pandas DataFrame.
+    * Analyze seasonal temperature and pressure trends.
+    * Estimate the length of a Martian year by plotting temperature trends.
+    * Save results to a CSV file.
+
+### Results & Insights
+* Mars has 12 months, eash experiencing different temperature and pressure variations.
+* The coldest months and warmest months were identified using average minimum temperatures.
+* Atmospheric pressure flucuates with the seasons, with lowest and highest pressure months visualzed.
+* By analyzing minimum temperature cycles, we estimated a Martian year to be about 687 Earth days.
+
+### Conclusion 
+
+Tis project enhances web scraping, data structuring, and visualization skills while uncovering seasonal patterns on Mars. The insights gained help us understand Martian climate cycles, which is essential for future missions to the red Planet.
+
+
+
 

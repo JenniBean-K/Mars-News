@@ -48,7 +48,7 @@ This project involves web scraping and data analysis to extract and analyze Mars
     * Numbr of Martian days in dataset
     * Coldest and warmest months
 
-    ![Temperature Bar Chart](Images/Temperature_Bar_Chart.png)
+    ![Temperature Bar Chart](Images/Temperature_Bar_chart.png)
 
 
 
